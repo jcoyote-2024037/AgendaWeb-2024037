@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis Contactos - Agenda</title>
+    <link rel="stylesheet" href="../style/contacto.css">
+</head>
+
+<body>
+    <div class="agenda-container">
+        <header class="agenda-header">
+            <h1>Contactos - Agenda</h1>
+            <button class="btn-logout" onclick="window.location.href='../index.html'">Cerrar Sesión</button>
+        </header>
+
+        <div class="tabs">
+            <button class="btn-agregar" onclick="window.location.href='../index/nuevo.html'">+ Nuevo</button>
+            <button class="btn-agregar" onclick="window.location.href='favoritos.html'">Favoritos</button>
+            <button class="btn-agregar" onclick="window.location.href='perfil.html'">Perfil </button>
+            <button class="btn-agregar" onclick="window.location.href='todo.html'">ToDo List</button>
+        </div>
+
+        <div class="contacto-list">
+
+            <div class="contacto-card"
+                onclick="window.location.href='detalle.html?nombre=Diego%20Coyote&tel=45256878&ini=DC&mail=dcoyote@gmail.com&dir=Guatemala, Zona 11'">
+                <div class="contacto-info">
+                    <strong>Diego Coyote</strong>
+                    <span> - 45256878</span>
+                </div>
+                <span class="arrow">›</span>
+            </div>
+
+            <div class="contacto-card"
+                onclick="window.location.href='detalle.html?nombre=Jota%20Magzul&tel=55636589&ini=JM&mail=jmagzul@gmail.com&dir=Guatemala, Zona 4'">
+                <div class="contacto-info">
+                    <strong>Jota Magzul</strong>
+                    <span> - 55636589</span>
+                </div>
+                <span class="arrow">›</span>
+            </div>
+
+            <div class="contacto-card"
+                onclick="window.location.href='detalle.html?nombre=Melvin%20Santos&tel=45236855&ini=MS&mail=msantos@gmail.com&dir=Guatemala, Zona 1'">
+                <div class="contacto-info">
+                    <strong>Melvin Santos</strong>
+                    <span> - 45236855</span>
+                </div>
+                <span class="arrow">›</span>
+            </div>
+
+            <div class="contacto-card"
+                onclick="window.location.href='detalle.html?nombre=Ivan%20Cornejo&tel=45121415&ini=IC&mail=icornejo@gmail.com&dir=Guatemala, Zona 9'">
+                <div class="contacto-info">
+                    <strong>Ivan Cornejo</strong>
+                    <span> - 45121415</span>
+                </div>
+                <span class="arrow">›</span>
+            </div>
+
+            <div class="contacto-card"
+                onclick="window.location.href='detalle.html?nombre=Damaris%20Cujcuj&tel=56232525&ini=DC&mail=dcujcuj@gmail.com&dir=Guatemala, Zona 11'">
+                <div class="contacto-info">
+                    <strong>Damaris CujCuj</strong>
+                    <span> - 56232525</span>
+                </div>
+                <span class="arrow">›</span>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
