@@ -1,0 +1,95 @@
+.detalle-main {
+    flex: 1;
+    background-color: #ffffff;
+    overflow-y: auto;
+}
+
+.perfil-avatar {
+    background: linear-gradient(to bottom, #FF8C00, #ffb347);
+    padding: 3rem 1rem;
+    text-align: center;
+    color: white;
+}
+
+.circulo-inicial {
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    color: #FF8C00;
+    border-radius: 50%;
+    margin: 0 auto 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.perfil-avatar h2 {
+    margin-bottom: 0.2rem;
+}
+
+.perfil-avatar p {
+    font-size: 0.9rem;
+    opacity: 0.9;
+}
+
+.lista-detalles {
+    padding: 1.5rem 5%;
+}
+
+.detalle-item {
+    padding: 1.2rem 0;
+    border-bottom: 1px solid #eee;
+}
+
+.detalle-item .label {
+    display: block;
+    font-size: 0.85rem;
+    color: #FF8C00; 
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 0.3rem;
+}
+
+.detalle-item .valor {
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.detalle-main .btn-cancel {
+    margin: 2rem 0;
+    width: 100%;
+}
+
+.btn-back {
+    background-color: #ffffff;       
+    color: #FF8C00;                 
+    border: 2px solid #FF8C00;      
+    border-radius: 8px;              
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.btn-back:hover {
+    background-color: #FF8C00;      
+    color: white;                   
+}
+
+.btn-add {
+    background-color: #FF8C00;       
+    color: white;                    
+    border: none;
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.btn-add:hover {
+    background-color: #e67e00;       
+}
