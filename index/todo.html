@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>ToDo List - Agenda</title>
+    <link rel="stylesheet" href="../style/todo.css">
+</head>
+<body>
+
+<div class="agenda-container">
+
+    <header class="agenda-header">
+        <button class="btn-back" onclick="window.location.href='contacto.html'">← Volver</button>
+
+        <h1>Pendientes</h1>
+
+        <button class="btn-agregar" id="addTask">＋</button>
+    </header>
+
+    <main class="contact-list">
+
+        <div class="todo-form">
+            <input type="text" id="taskInput" placeholder="Nueva tarea">
+            <select id="priorityInput">
+                <option value="1">Alta</option>
+                <option value="2">Media</option>
+                <option value="3">Baja</option>
+            </select>
+        </div>
+
+        <ul id="taskList"></ul>
+
+    </main>
+
+</div>
+
+
+<script src="../script/todo.js"></script>
+</body>
+</html>
