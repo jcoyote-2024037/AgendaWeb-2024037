@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detalle del Contacto - Mi Agenda</title>
+    <link rel="stylesheet" href="../style/detalle.css">
+</head>
+<body>
+    <div class="agenda-container">
+        <header class="agenda-header">
+            <button class="btn-back" onclick="window.location.href='contacto.html'">← Volver</button>
+            <h1>Perfil</h1>
+        </header>   
+
+        <main class="detalle-main">
+            <div class="perfil-avatar">
+                <div class="circulo-inicial">--</div>
+                <h2>Sin nombre</h2>
+                <p>Contacto</p>
+            </div>
+
+            <div class="lista-detalles">
+                <div class="detalle-item">
+                    <span class="label">Teléfono</span>
+                    <span class="valor" id="tel">---</span>
+                </div>
+
+                <div class="detalle-item">
+                    <span class="label">Correo Electrónico</span>
+                    <span class="valor"id="mail">---</span>
+                </div>
+
+                <div class="detalle-item">
+                    <span class="label">Dirección</span>
+                    <span class="valor" id="dir">---</span>
+                </div>
+            <button class="btn-add" onclick="window.location.href='nuevo.html'">Editar</button>
+
+            </div>
+
+          
+        </main>
+    </div>
+
+  <script src="../script/detalle.js"></script>
+
+</body>
+</html>
