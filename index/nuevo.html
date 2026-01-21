@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agregar contacto - Mi Agenda</title>
+    <link rel="stylesheet" href="../style/nuevo.css">
+</head>
+<body>
+    <div class="agenda-container">
+        <header class="agenda-header">
+            <button class="btn-back" onclick="window.location.href='contacto.html'">← Volver</button>
+            <h1>Nuevo contacto</h1>
+            <div style="width: 60px;"></div> </header>
+
+        <main class="form-container">
+            <form class="contacto-form">
+                <div class="input-group">
+                    <label for="nombre">Nombre Completo</label>
+                    <input type="text" id="nombre" placeholder="Nombre y Apellido">
+                </div>
+
+                <div class="input-group">
+                    <label for="telefono">Teléfono</label>
+                    <input type="tel" id="telefono" placeholder="+502 0000 0000">
+                </div>
+
+                <div class="input-group">
+                    <label for="correo">Correo Electrónico</label>
+                    <input type="email" id="correo" placeholder="correo@ejemplo.com">
+                </div>
+
+                <div class="input-group">
+                    <label for="direccion">Dirección</label>
+                    <input type="text" id="direccion" placeholder="Calle, Ciudad, País">
+                </div>
+
+                <div class="form-actions">
+                    <button type="button" class="btn-save" onclick="window.location.href='contacto.html'">
+                        Guardar contacto
+                    </button>
+                    <button type="button" class="btn-cancel" onclick="window.location.href='contacto.html'">
+                        Cancelar
+                    </button>
+                </div>
+            </form>
+        </main>
+    </div>
+</body>
+</html>

@@ -1,0 +1,193 @@
+body {
+    background-color: #ffffff;
+    display: block;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    color: #333;
+    margin: 0;
+}
+
+.agenda-container {
+    background-color: #ffffff;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+    border-radius: 0;
+    position: relative;
+}
+
+.agenda-header {
+    background-color: #FF8C00;
+    color: white;
+    padding: 1.5rem 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    gap: 1rem;
+}
+
+.agenda-header h1 {
+    font-size: 1.6rem;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+    margin: 0;
+}
+
+.btn-agregar {
+    background-color: white;
+    color: #FF8C00;
+    border: none;
+    padding: 0.6rem 1.2rem;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.btn-agregar:hover {
+    background-color: #fff5e6;
+    transform: translateY(-1px);
+}
+
+.contact-list {
+    flex: 1;
+    overflow-y: auto;
+    background-color: white;
+    padding: 0 5%;
+}
+
+.contacto-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2rem 1rem;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.2s;
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+}
+
+.contacto-card:hover {
+    background-color: #fff5e6;
+    transform: translateY(-1px);
+}
+
+.contact-info {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.contact-info strong {
+    display: block;
+    color: #333;
+    font-size: 1.1rem;
+}
+
+.contact-info span {
+    color: #777;
+    font-size: 0.9rem;
+}
+
+.arrow {
+    color: #FF8C00;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.tabs {
+    display: flex;
+    gap: 10px;
+}
+
+.tab {
+    flex: 1;
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
+    background: #e5e5e5;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.2s;
+}
+
+.tab:hover {
+    background: #dcdcdc;
+    transform: translateY(-1px);
+}
+
+.tab.active {
+    background: #4f46e5;
+    color: white;
+}
+
+.contacto-card.favorito {
+    border-left: 4px solid #FF8C00;
+    background-color: #fffaf0;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+    padding: 0.8rem 1rem;
+    margin-bottom: 0.4rem;
+}
+
+.contacto-card.favorito:hover {
+    background-color: #fff3e0;
+    transform: translateY(-1px);
+}
+
+.contacto-card .favorito-icon {
+    font-size: 1.2rem;
+    color: #FF8C00;
+}
+
+.btn-back {
+    background-color: #FF8C00;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.btn-back:hover {
+    background-color: #e67e00;
+    transform: translateY(-1px);
+}
+
+.btn-logout {
+    position: absolute;
+    top: 20px;
+    right: 5%;
+    background-color: #f9f9f9;
+    color: #666;
+    border: none;
+    padding: 0.7rem 1rem;
+    cursor: pointer;
+    font-size: 0.95rem;
+    border-radius: 8px;
+    transition: all 0.2s;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.btn-logout:hover {
+    background-color: #fff5e6;
+    color: #FF8C00;
+    transform: translateY(-1px);
+}
+
+.tab, .btn-agregar {
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+

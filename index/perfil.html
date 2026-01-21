@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil - Agenda</title>
+    <link rel="stylesheet" href="../style/detalle.css">
+</head>
+
+<body>
+    <div class="agenda-container">
+        <header class="agenda-header">
+            <button class="btn-back" onclick="window.location.href='contacto.html'">← Volver</button>
+            <h1>Mi Perfil</h1>
+        </header>
+
+        <main class="detalle-main">
+            <div class="perfil-avatar">
+                <div class="circulo-inicial" id="iniciales">US</div>
+                <h2 id="nombre-usuario">Usuario Demo</h2>
+                <p>Cuenta personal</p>
+            </div>
+
+            <div class="lista-detalles">
+                <div class="detalle-item">
+                    <span class="label">Nombre completo</span>
+                    <span class="valor" id="nombre-completo">Usuario Demo</span>
+                </div>
+
+                <div class="detalle-item">
+                    <span class="label">Correo</span>
+                    <span class="valor" id="correo">usuario@mail.com</span>
+                </div>
+
+                <div class="detalle-item">
+                    <span class="label">Usuario</span>
+                    <span class="valor" id="usuario">user_1</span>
+                </div>
+
+                <div class="detalle-item">
+                    <span class="label">Miembro desde</span>
+                    <span class="valor" id="fecha">Enero 2026</span>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="../script/login.js"></script>
+</body>
+
+</html>
